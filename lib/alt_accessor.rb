@@ -18,5 +18,6 @@ module AltAccessor
 		else
 			return "invalid argument: method requires a symbol as an argument"
 		end
-	end	
+	end
+
 end
