@@ -10,7 +10,7 @@ module AltAccessor
 					define_method("#{name}=") do |val|
 						instance_variable_set("@#{name}", val)
 					end
-					return "attr_accessor methods created for: #{name}"
+					"attr_accessor methods created for: #{name}"
 				else
 					return "invalid argument: #{name} is not a symbol"
 				end
@@ -19,5 +19,4 @@ module AltAccessor
 			return "invalid argument: method requires a symbol as an argument"
 		end
 	end
-
 end

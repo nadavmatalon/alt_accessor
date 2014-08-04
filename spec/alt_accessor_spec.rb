@@ -26,7 +26,7 @@ context "alt_accessor method" do
 		expect(var_1).to eq nil
 		expect(var_2).to eq nil
 		expect { Object.alt_accessor :var_1 }.not_to raise_error
-		expect { Object.alt_accessor :var_1 }.not_to raise_error
+		expect { Object.alt_accessor :var_2 }.not_to raise_error
 		@var_1 = 1
 		expect(var_1).to eq 1
 		@var_2 = 2
