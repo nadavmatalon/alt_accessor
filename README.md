@@ -50,7 +50,7 @@ methodology (tests written with [Rspec](http://rspec.info/)).
 
 Tests were written with [Rspec](http://rspec.info/) (3.0.4).
 
-To run the testing suite in terminal: 
+To run the test in terminal: 
 
 ```bash
 $> cd alt_accessor
