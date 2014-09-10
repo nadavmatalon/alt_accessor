@@ -13,11 +13,11 @@ This repo contians the answer to __Week 5 Friday Challange__ of the course
 at [Makers Academy](http://www.makersacademy.com/).
 
 This challange was about writing an effective [Ruby](https://www.ruby-lang.org/en/)-based 
-equivallent to the __attr_accessor__ method which utilizes 
+equivallent to the __attr_accessor__ method. This method utilizes 
 [metaprogramming](http://en.wikipedia.org/wiki/Metaprogramming) techniques to 
 dynamically create other methods which can access and set instance variables.
 
-The equivallent method offered here was created according to 
+The equivallent method offered here, __alt_accessor__, was created according to 
 [TDD](http://en.wikipedia.org/wiki/Test-driven_development) 
 methodology (tests written with [Rspec](http://rspec.info/)).
 
@@ -30,12 +30,12 @@ methodology (tests written with [Rspec](http://rspec.info/)).
 
   For example, if we implement:
 
-```
+```ruby
 		alt_accessor :name
 ```
    The alternative method will create the following methods:
 
-```
+```ruby
 		def name
 			@name
 		end
