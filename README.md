@@ -1,11 +1,58 @@
-<h2>AltAccessor Module</h2> 
+##Makers Academy | Week 5 | Challenge | Part III (bonus)
 
-<h3>#alt_accessor</h3>
+##Table of Contents
 
-<p>The AltAccessor module contains a single method: alt_accessor</p>
+* [General Description](#general-description)
+* [Guidelines](#guidelines)
+* [Testing](#testing)
 
-<p><strong>alt_accessor</strong> seeks to offer a ruby-based equivallent of the original <strong> attr_accessor</strong> method.</p>
 
-<p>By utilizing metaprogramming techniques, this method creates methods dynamically to access and to set instance variables.</p>
+##General Description
 
-<p>The method was created according to the TDD methodology using Rspec for testing (Rspec tests file included in the repo).</p>
+This repo contians the answer to __Week 5 Friday Challange__ of the course 
+at [Makers Academy](http://www.makersacademy.com/).
+
+This challange was about writing an effective [Ruby](https://www.ruby-lang.org/en/)-based 
+equivallent to the __attr_accessor__ method which utilizes 
+[metaprogramming](http://en.wikipedia.org/wiki/Metaprogramming) techniques to 
+dynamically create other methods which can access and set instance variables.
+
+The equivallent method offered here was created according to 
+[TDD](http://en.wikipedia.org/wiki/Test-driven_development) 
+methodology (tests written with [Rspec](http://rspec.info/)).
+
+
+##Guidelines
+
+* Re-implement the attr_accessor method
+* The idea is that this method will create methods dynamically to access and to set 
+  instance variables
+
+  For example, if we implement:
+
+```
+		alt_accessor :name
+```
+   The alternative method will create the following methods:
+
+```
+		def name
+			@name
+		end
+
+		def name=(name)
+			@name = name
+		end
+```
+
+
+##Testing
+
+Tests were written with [Rspec](http://rspec.info/) (3.0.4).
+
+To run the testing suite in terminal: 
+
+```bash
+$> cd alt_accessor
+$> rspec
+```
