@@ -1,4 +1,4 @@
-##Makers Academy | Week 5 | Challenge | Part III (bonus)
+##Makers Academy | Week 5 | Challenge | Part III (Bonus)
 
 ##Table of Contents
 
@@ -9,16 +9,16 @@
 
 ##General Description
 
-This repo contians the answer to __Week 5 Friday Challange__ of the course 
+This repo contians the answer to __Week 5 Friday Challange (Part III (Bonus)__ of the course 
 at [Makers Academy](http://www.makersacademy.com/).
 
 This challange was about writing an effective [Ruby](https://www.ruby-lang.org/en/)-based 
-equivallent to the [__attr_accessor__](http://www.rubyist.net/~slagell/ruby/accessors.html) 
+equivallent to the [__attr_accessor()__](http://www.rubyist.net/~slagell/ruby/accessors.html) 
 method. This method utilizes 
 [metaprogramming](http://en.wikipedia.org/wiki/Metaprogramming) techniques to 
 dynamically create other methods which can access and set instance variables.
 
-The equivallent method offered here, __alt_accessor__, was created according to 
+The equivallent method offered here, __alt_accessor()__, was created according to 
 [TDD](http://en.wikipedia.org/wiki/Test-driven_development) 
 methodology (tests written with [Rspec](http://rspec.info/)).
 
