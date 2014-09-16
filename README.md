@@ -12,7 +12,7 @@
 
 ##General Description
 
-This repo contians the answer to __Week 5 Friday Challange (Part III (Bonus)__ of the course 
+This repo contians my answer to __Week 5 Friday Challange (Part III (Bonus)__ of the course 
 at [Makers Academy](http://www.makersacademy.com/).
 
 This challange was about writing an effective [Ruby](https://www.ruby-lang.org/en/)-based 
