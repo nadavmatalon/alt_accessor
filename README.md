@@ -32,18 +32,18 @@ methodology (tests written with [Rspec](http://rspec.info/)).
   For example, if we implement:
 
 ```ruby
-		alt_accessor :name
+alt_accessor :name
 ```
    The alternative method will create the following methods:
 
 ```ruby
-		def name
-			@name
-		end
+def name
+	@name
+end
 
-		def name=(name)
-			@name = name
-		end
+def name=(name)
+	@name = name
+end
 ```
 
 
